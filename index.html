@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Tarjeta de Credito</title>
+</head>
+<body>
+    <main class="container">
+        <div class="container-section">
+            <section class="contenedor1">
+                <div class="container-tarjeta">
+                    <section class="tarjeta1">
+                        <div class="logo">
+                            <img class="logo-img" src="./images/card-logo.svg" alt="">
+                        </div>
+                        <div class="numero-tarjeta">
+                            <p class="tnumero tarjeta-numero">0000 0000 0000 0000</p>
+                        </div>
+                        <div class="nombre-tarjeta-fecha">
+                            <p class="tarjeta-nombre">Jane Aponte</p>
+                            <p class="tarjeta-fecha fechass">00</p>
+                            <p class="tarjeta-fecha añoss">/00</p>
+                        </div>
+                    </section>
+                    <section class="tarjeta2">
+                        <div class="cvc-tarjeta">
+                            <p class="tarjeta-cvc">000</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="contenedor2">
+                <div class="title">
+                    <p>CARDHOLDER NAME</p>
+                </div>
+                <div class="description">
+                    <input class="description-form"  onkeyup="tiempoReal1()" type="text" minlength="25" maxlength="25" placeholder="e.g Jane Aponte">
+                    <p class="error1">can't be blank</p>
+                    <p class="error1-1">string only format</p>
+                </div>
+                <div class="title">
+                    <p>CARD NUMBER</p>
+                </div>
+                <div class="description">
+                    <input class="description-form number" onkeypress="return camposNumeros(event)" minlength="16" maxlength="16" onkeyup="tiempoReal()" type="text"  placeholder="e.g 1625 2726 7363 6473">
+                    <p class="error2">can't be blank</p>
+                    <p class="error2-1">format only type number</p>
+                </div>
+                <div class="title">
+                    <p>EXP. DATE (MM/YY)</p>
+                    <p id="title-cvc">CVC</p>
+                </div>
+                <div class="description description-responsive">
+                    <div class="fecha">
+                        <input class="description-form1 mes" onkeypress="return camposNumeros2(event)" minlength="2" maxlength="2"   onkeyup="tiempoReal2()" type="text" placeholder="MM">
+                    </div>
+                    <div class="año">
+                        <input class="description-form1 año1" onkeypress="return camposNumeros2(event)" minlength="2" maxlength="2" onkeyup="tiempoReal3()" type="text" placeholder="YY">
+                    </div>
+                    <div class="cvc">
+                        <input class="description-form2 cvc1" onkeypress="return camposNumeros2(event)" minlength="3" maxlength="3" onkeyup="tiempoReal4()" type="text" placeholder="e.g 123">
+                    </div>
+                    <p class="error3">can't be blank</p>
+                    <p class="error3-1">format only type number</p>
+                </div>
+                <div class="buttom">
+                    <button class="buttom-1">
+                        Confirm
+                    </button>
+                </div>
+            </section>
+
+            <section class="mensajefinal">
+                <div class="mensaje-final">
+                    <img class="img-final" src="./images/icon-complete.svg" alt="">
+                    <p class="p-final">Su tarjeta fue Ingresada correctamente</p>
+                    <button class="b-final">Continue</button>
+                </div> 
+            </section>
+            
+        </div>  
+    </main>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

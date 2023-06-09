@@ -1,0 +1,33 @@
+@import './contenedor2.css';
+@import './contenedor1.css';
+@import './containertarjeta.css';
+@import './responsive.css';
+@import './responsive2.css';
+@import './mensaje-final.css';
+@import './responsive3.css';
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-section {
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+
+
+
+
+

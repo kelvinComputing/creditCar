@@ -1,0 +1,77 @@
+@media screen and (max-width: 1250px){
+
+
+    .container-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor1 {
+        width: 100%;
+        height: 50%;
+        background-image: url(/images/bg-main-mobile.png);
+    }
+
+    .container-tarjeta {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .tarjeta2 {
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .cvc-tarjeta {
+        padding: 0;
+        justify-content: flex-end;
+    }
+
+    .tarjeta-cvc {
+        padding-right: 30px;
+    }
+
+    .tarjeta1 {
+        position: absolute;
+        margin-top: 278px;
+        margin-right: 278px;
+    }
+
+    .contenedor2 {
+        padding-top: 120px;
+        width: auto;
+    }
+
+    .title {
+        padding-right: 200px;
+        font-size: medium;
+    }
+
+    .description {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .buttom {
+        padding-left: 45%;
+        margin: 0;
+    }
+
+    .mensaje-final {
+        margin-top: 7%;
+        margin-left: -7%;
+    }
+    }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+@media screen and (max-width: 750px){
+
+    .contenedor1 {
+        height: 30%;
+    }
+
+    .tarjeta2 {
+        margin-top: 5px;
+        height: 144px;
+        width: 250px;
+    }
+
+    .tarjeta1 {
+        height: 200px;
+        margin-top: 349px;
+        width: 280px;
+        margin-left: 280px;
+    }
+
+    .tarjeta-nombre {
+        margin-top: -14px;
+    }
+
+    .fechass {
+        margin-top: -14px;
+        margin-left: 10px;
+        padding-left: 188px;
+    }
+
+    .añoss {
+        margin-top: -14px;
+    }
+
+    .contenedor2{
+        padding-top: 230px;
+    }
+
+    .title {
+        padding-left: 25%;
+    }
+
+    .description {
+        padding-left: 25%;
+    }
+
+    .buttom {
+        padding-left: 25%;
+    }
+
+    .mensaje-final {
+        margin-top: 15%;
+    }
+
+}
