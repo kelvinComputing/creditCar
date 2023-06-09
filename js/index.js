@@ -116,7 +116,7 @@ button.addEventListener ('click', function() {
         cvc.style.borderColor='red';
     } else if (mes.value>12){
         alert('el mes no es valido');
-    } else if (año.value<23 || año.value>27){
+    } else if (año.value<23 ||año.value>27){
         alert('El año es incorrecto');
     } else {
         cerrarformulario.style.display='none';
