@@ -11,7 +11,7 @@
     .contenedor1 {
         width: 100%;
         height: 50%;
-        background-image: url(/images/bg-main-mobile.png);
+        background-image: url(../images/bg-main-mobile.png);
     }
 
     .container-tarjeta {
